@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <button id="h">clique ici</button>
+    <table >
+        <tr >
+            <td> ville</td>
+            <td>pays</td>
+            <td>continent</td>
+            
+        </tr>
+        <tr >
+            <td>Tunis</td>
+            <td>tunisie</td>
+            <td>Afrique</td>
+            
+        </tr>
+        <tr>
+            <td>Dakar</td>
+            <td>Senegal</td>
+            <td>Afrique</td>
+            
+        </tr>
+        <tr>
+            <td>Douala</td>
+            <td>cameroun</td>
+            <td>Afrique</td>
+            
+        </tr>
+    </table> 
+    <div>
+
+    </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+
+    <script>
+      let btn=document.getElementById("h")
+       btn.addEventListener("click", function(){
+        let  table=document.querySelector("table")
+        table.classList.add("table","table-warning","table-bordered","table-striped","table-striped-columns","table-hover");
+        //btn.classList.add('class',"btn btn-succes");
+      let a=document.createElement("button")
+       a.innerHTML="Tine"
+       a.classList.add('btn', "btn-success","m-5")
+       document.querySelector('div').innerHTML=""
+
+       document.querySelector('div').appendChild(a)
+
+       let b=document.createElement("button")
+       b.innerHTML="Aicha"
+       b.classList.add('btn', "btn-danger")
+       document.querySelector('div').appendChild(b)
+        
+     })
+     
+       
+        
+     
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objet</title>
+</head>
+<body>
+         <!--  <script>
+            let objet1={
+                prenom:"Aicha",
+                nom:"Sagna",
+                info:function(){
+                    return this.nom+""+this.age
+                },
+                tab:["messi","ronaldo","yaya touré","rooney"],
+                adresse :
+                {
+                    rue:"Drolet",
+                    ville:"Montreal",
+                    autreObjet:{
+                        tel:"0001114595",
+                    }
+                }
+
+               
+
+            }
+            alert(objet1.adresse.autreObjet.tel)
+
+
+            
+            
+           
+           
+            
+           </script>-->
+          
+          <!-- creation des objets avec un construction 
+           <script>
+            function personne(p,n,a)
+            {
+                this.prenom=p;
+                this.nom=n;
+                this.age= a;
+                this.infos =function ()
+                {
+                    return this.prenom+""+this.nom+""+this.age;
+                }
+            }
+
+            p1 = new personne("Abou" ,"Tine",16),
+            p2=new personne("biny","Hajar",20);
+            p3 =new personne ("zahara","Ahmed",19),
+            alert (p1.infos())
+            alert (p2.infos())
+            alert (p3.infos())
+
+           </script> -->
+                 <!--CREATION D'OBJET AVEC UNE CLASSE 
+
+                <script>
+                    class Etudiant 
+                    {
+                           constructor(p,n,a)
+                           {
+                            this.prenom=p;
+                            this.nom=n;
+                            this.age=a;
+                           }
+                           info(){ document.write('bonsoir à tous');}
+                           aa=function()
+                           {
+                                  return this.prenom+''+this.nom+''+this.age;
+                           }
+                    }
+                    e1 = new Etudiant ('Moune','Salman',18);
+
+                    alert(e1.nom)
+                    e1.info()
+                    console.log(e1.aa())
+                </script> -->
+               <!-- CREATION DESOBJETS AVEC UNE CLASSE PREDEFINIE DE JAVASCRIPT -->
+                <script>
+                    eleve =new  Object ();
+                    eleve.prenom ="Justin";
+                    eleve.nom ="Trudeau";
+                    eleve.age =30;
+                    eleve.info =function () { return this.prenom+"" +  +this.nom+"" + this.age ;
+
+                    }
+                    alert (eleve.nom) 
+                    alert ( eleve.kevine ())
+                    eleve.info()
+                    
+                </script>
+
+</body>
+</html>

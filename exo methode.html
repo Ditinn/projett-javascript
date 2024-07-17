@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="h">clique ici</button>
+    <script>
+        let btn=document.querySelector("#h")
+       btn.addEventListener("click",function(){
+        let img=document.createElement('img')
+        img.setAttribute("src","pastète.jpg");
+        document.querySelector("body").appendChild(img)
+        document.querySelector("body").style.backgroundColor="red"
+       })
+
+    </script>
+</body>
+</html>
